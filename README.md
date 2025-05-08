@@ -11,9 +11,9 @@ Features
 
 Step to create 
 
-1- Start an Amazon Linux EC2 instance on AWS.
-2- Open common ports like SSH (22), HTTP (80), HTTPS (443), RDP (3389), and FTP (21) so the server looks vulnerable.
-3- Install the Amazon CloudWatch Agent to send system logs to CloudWatch.
-4- Create a fake log file (like a honeypot) and point the CloudWatch Agent to it.
-5- Set up a CloudWatch Dashboard to monitor and display any suspicious activity.
+*Start an Amazon Linux EC2 instance on AWS.
+*Open common ports like SSH (22), HTTP (80), HTTPS (443), RDP (3389), and FTP (21) so the server looks vulnerable.
+*Install the Amazon CloudWatch Agent to send system logs to CloudWatch.
+*Create a fake log file (like a honeypot) and point the CloudWatch Agent to it.
+*Set up a CloudWatch Dashboard to monitor and display any suspicious activity.
 
