@@ -9,3 +9,11 @@ Features
 * Monitored unauthorized access attempts.
 * Visualized intrusion patterns in a real-time CloudWatch Dashboard.
 
+Step to create 
+
+Start an Amazon Linux EC2 instance on AWS.
+Open common ports like SSH (22), HTTP (80), HTTPS (443), RDP (3389), and FTP (21) so the server looks vulnerable.
+Install the Amazon CloudWatch Agent to send system logs to CloudWatch.
+Create a fake log file (like a honeypot) and point the CloudWatch Agent to it.
+Set up a CloudWatch Dashboard to monitor and display any suspicious activity.
+
